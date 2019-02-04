@@ -21,11 +21,39 @@
     margin-right:20px;
 
 }
-.container{
-    min-height: calc(105vh - 250px);
-    border: 2px solid green;
 
-}
+.container{
+    border: 2px solid green; 
+    margin: 0 auto;
+    margin-top:40px;
+    clear: both;
+     overflow: hidden;
+      }
+
+ .row{
+     margin-top:20px;
+     margin-bottom: 30px;
+     
+
+ }
+ 
+ .row h3 {
+    position: relative;
+    bottom: 20px;
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 5px;
+    font-weight: 300;
+    line-height: 30px;
+    color:#353C3C;
+    text-align: center;
+    background: #7CAFDE;
+    border-bottom: 0;
+    font-family: "Georgia";
+    font-size: 22px;
+  }
+  
+
 
 footer {
     text-align: center;
